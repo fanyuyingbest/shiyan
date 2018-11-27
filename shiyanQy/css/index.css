@@ -1,0 +1,527 @@
+/* 首页面开始 */
+body,html,div,span{
+    font-family:"Microsoft YaHei";
+}
+.page_head{
+    width:100%;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    border-bottom: 1px solid #ccc;
+}
+.page_back_img{
+    float: left;
+    width:0.8rem;
+    height: 1.2rem;
+    background: url("/shiyan/image/png_back.png") no-repeat center center;
+    background-size: 0.4rem 0.4rem;
+    cursor: pointer;
+}
+.page_back_info{
+    float: left;
+    width:auto;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    font-size: 0.32rem;
+    color: #000;
+    cursor: pointer;
+}
+.info_list{
+    width:100%;
+    height: 100%;
+    margin:0;
+    padding: 0;
+    overflow-y:scroll;
+    -webkit-overflow-scrolling: touch;
+}
+.dl_list{
+    width:100%;
+    height: 1.2rem;
+    background-color: #fff;
+    padding-top: 0.1rem;
+    border-bottom: 0.01rem solid #ccc;
+}
+.dl_list dt{
+    width:24%;
+    height: 100%;
+    float: left;
+    position: relative;
+}
+.dl_list dt .dt_img{
+    display: inline-block;
+    width:1rem;
+    height: auto;
+    margin-left: 0.1rem;
+    margin-top: 0.1rem;
+}
+.dl_list dt .dt_img_up{
+    display: inline-block;
+    width:0.5rem;
+    height: 0.5rem;
+    position: absolute;
+    top:0.6rem;
+    right: 0.4rem;
+}
+.dl_list dd{
+    width:76%;
+    height: 100%;
+    float: left;
+    position: relative;
+    cursor: pointer;
+}
+.dl_list dd .dd_title{
+    width:100%;
+    height: 0.4rem;
+}
+.dl_list dd .dd_title .dd_title_info{
+    float: left;
+    width:76%;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    text-align: left;
+    color: #555555;
+    font-size: 0.3rem; 
+}
+.dl_list dd .dd_title .dd_title_info .dd_title_info_nav{
+    font-size: 0.26rem;
+    
+}
+.dl_list dd .dd_title .dd_title_img{
+    float: left;
+    width:20%;
+    margin-left: 0.2rem;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    text-align: left;
+    color: #000;
+    font-size: 0.28rem;
+    background: url("/shiyan/image/png_3.png") no-repeat center center;
+    background-size: 0.4rem 0.4rem;
+
+}
+.dl_list dd .dd_info{
+    width:100%;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    padding-bottom: 0.1rem;
+    margin-top: 0.1rem;
+}
+
+.dl_list dd .dd_info .dd_info_note{
+    float: left;
+    width:76%;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    text-align: left;
+    color: #999;
+    font-size: 0.26rem; 
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.dl_list dd .dd_info .dd_info_time{
+    float: left;
+    width:20%;
+    margin-left: 0.2rem;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    text-align: center;
+    color: #999;
+    font-size: 0.26rem; 
+}
+/* 首页面结束 */
+/* 十堰政府页面 */
+.zf_head{
+    width:100%;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    border-bottom: 1px solid #ccc;
+}
+.zf_back_img{
+    float: left;
+    width:0.8rem;
+    height: 1.2rem;
+    background: url("/shiyan/image/png_back.png") no-repeat center center;
+    background-size: 0.4rem 0.4rem;
+    cursor: pointer;
+}
+.zf_back_logo{
+    float: left;
+    width:0.8rem;
+    height: 1.2rem;
+}
+.zf_back_logo.yh{
+    background: url("/shiyan/image/qy_1.png") no-repeat center center;
+    background-size: 0.8rem 0.8rem;
+}
+.zf_back_logo.dd{
+    background: url("/shiyan/image/qy_2.png") no-repeat center center;
+    background-size: 0.8rem 0.8rem;
+}
+.zf_back_logo.wd{
+    background: url("/shiyan/image/qy_3.png") no-repeat center center;
+    background-size: 0.8rem 0.8rem;
+}
+.zf_back_logo.yz{
+    background: url("/shiyan/image/qy_4.png") no-repeat center center;
+    background-size: 0.8rem 0.8rem;
+}
+.zf_back_logo.sc{
+    background: url("/shiyan/image/qy_5.png") no-repeat center center;
+    background-size: 0.8rem 0.8rem;
+}
+.zf_back_logo.jd{
+    background: url("/shiyan/image/qy_6.png") no-repeat center center;
+    background-size: 0.8rem 0.8rem;
+}
+.zf_back_info{
+    float: left;
+    width:3rem;
+    height: 1.2rem; 
+    /* margin-left: 0.2rem; */
+}
+.zf_back_title{
+    width:100%;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    color: #000;
+    text-align: left;
+    font-size: 0.32rem;
+    margin-top: 0.2rem;
+}
+.zf_back_phone{
+    width:100%;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    color: #999;
+    text-align: left;
+    font-size: 0.26rem;
+}
+.zf_back_call{
+    float: right;
+    width:0.8rem;
+    height: 1.2rem;
+    background: url("/shiyan/image/png_call.png") no-repeat center center;
+    background-size: 0.4rem 0.4rem;
+    cursor: pointer;
+}
+.zf_back_menu{
+    float: right;
+    width:0.8rem;
+    height: 1.2rem;
+    background: url("/shiyan/image/png_more.png") no-repeat center center;
+    background-size: 0.4rem 0.4rem;
+}
+.zf_main_page{
+    width:100%;
+    height: auto;
+    overflow: hidden;
+}
+.zf_main_date{
+    width:100%;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    color: #777;
+    font-size: 0.26rem;
+    text-align: center;
+    margin-top:0.1rem;
+}
+.zf_main_time{
+    width:76%;
+    margin-left: 12%;
+    height: 0.4rem;
+}
+.zf_main_time>div{
+    width:50%;
+    font-size: 0.24rem;
+    line-height: 0.4rem;
+    height: 0.4rem;
+}
+.zf_main_time_left{
+    float: left;
+    text-align: left;
+    color: #777;
+}
+.zf_main_time_right{
+    float: right;
+    text-align: right;
+    color: #4697f3;
+}
+.zf_main_msg{
+    width:80%;
+    margin-left: 10%;
+    border:1px solid #e4e4e4;
+    border-radius: 0.2rem;
+    /* height: 2.2rem; */
+    height: auto;
+    overflow: hidden;
+    /* margin-top: 0.1rem; */
+    margin-bottom: 0.4rem;
+}
+.zf_main_msg_info{
+    width:100%;
+    /* height: 1.4rem; */
+    height: auto;
+    background-color: #fcfcfc;
+}
+.zf_main_msg_info>img{
+    display: inline-block;
+    width:100%;
+    height: auto;
+}
+.zf_main_msg_info>span{
+    display: inline-block;
+    width:92%;
+    margin-left: 4%;
+    overflow: hidden;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    font-size: 0.30rem;
+    color: #000;
+    /* letter-spacing: 0.02rem; */
+}
+.zf_main_msg_done{
+    width:100%;
+    height: 0.8rem;
+    background-color: #f5f5f5;
+}
+.zf_main_msg_done>div{
+    width:50%;
+    height: 0.8rem;
+    float: left;
+    text-align: center;
+    color:#02acc3;
+    font-size: 0.32rem;
+    cursor: pointer;
+    line-height: 0.8rem;
+}
+.zf_main_notify{
+    width:80%;
+    margin-left: 10%;
+    border:1px solid #e4e4e4;
+    border-radius: 0.2rem;
+    height: auto;
+    overflow: hidden;
+    /* margin-top: 0.1rem; */
+    margin-bottom: 0.4rem;
+}
+.zf_main_notify_info{
+    width:100%;
+    height: auto;
+    background-color: #fcfcfc;
+}
+.zf_main_notify_info_1{
+    width:92%;
+    height: 0.4rem;
+    margin-left:4%;
+    font-size: 0.36rem;
+    color: #000;
+    line-height: 0.4rem;
+    padding-top: 0.1rem;
+}
+.zf_main_notify_info_2{
+    width:92%;
+    height: auto;
+    margin-left:4%;
+}
+.zf_main_notify_info_3{
+    float: left;
+    width:30%;
+    margin-right:6%;
+    height: auto;
+    margin-top: 0.4rem;
+}
+.info_3_title{
+    width:100%;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    font-size: 0.26rem;
+    color: #777;
+}
+.info_4_title{
+    width:100%;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    font-size: 0.4rem;
+    color: #000;
+    font-weight: bold;
+}
+.info_5_title{
+    width:100%;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    font-size: 0.28rem;
+    color: #000;
+}
+.info_4_title>span{
+    width:100%;
+    height: 0.5rem;
+    /* line-height: 0.4rem; */
+    font-size: 0.26rem;
+    color: #777;
+}
+.info_3_msg{
+    width:100%;
+    height: auto;
+    line-height: 0.4rem;
+    font-size: 0.28rem;
+    color: #020202;
+    word-wrap: break-word;
+    word-break: keep-all;
+    white-space:pre-wrap;
+    
+}
+.zf_main_msg_done2{
+    width:100%;
+    height: 0.8rem;
+    background-color: #f5f5f5;
+    text-align: center;
+    color:#02acc3;
+    font-size: 0.32rem;
+    cursor: pointer;
+    line-height: 0.8rem;
+}
+.zf_main_footer{
+    width:80%;
+    margin-left: 10%;
+    left:0;
+    border-radius: 0.6rem;
+    height: 1rem;
+    /* margin-top: 1rem; */
+    box-shadow:2px 2px 5px #e4e4e4;
+    /* margin-bottom: 0.2rem; */
+    position:fixed;
+    bottom:0.4rem;
+    
+}
+.zf_footer_kyb{
+    height: 100%;
+    background: url("/shiyan/image/png_keyboard.png") no-repeat center center;
+    background-size: 0.4rem 0.3rem;
+}
+.zf_main_footer>div{
+    float: left;
+    width:25%;
+}
+.zf_footer_sq{
+    height: 100%;
+    line-height: 1rem;
+    color: #4396f2;
+    font-size: 0.3rem;
+    text-align: center;
+    position: relative;
+}
+.zf_footer_sq_player{
+    position: absolute;
+    width:2rem;
+    height: auto;
+    /* padding:0.4rem; */
+    left:-0.2rem;
+    bottom:1.3rem;
+    box-shadow:2px 2px 5px #ccc;
+    display: none;
+    background-color: #fff;
+    border-radius: 0.2rem;
+}
+.zf_footer_sq_player ul{
+    width:80%;
+    margin-left: 10%;
+}
+.zf_footer_sq_player ul li{
+    width:100%;
+    list-style: none;
+    height: 1rem;
+    line-height: 1rem;
+    border-bottom: 0.01rem solid #e4e4e4;
+    text-align: center;
+    font-size: 0.26rem;
+
+}
+/* 政府首页面结束 */
+/* 弹出层 公共 */
+.zf_phone_player{
+    background: rgba(0,0,0,0.3);
+    z-index:1000;
+    width:100%;
+    height: 100%;
+    overflow: hidden;
+    position: fixed;
+    left:0;
+    top:0;
+    display: none;
+}
+.zf_phone_cont{
+    background-color: #fff;
+    z-index: 1002;
+    width:80%;
+    height: 2rem;
+    margin-left: 10%;
+    top:80%;
+    margin-top:-1rem;
+    position:absolute;
+    border-radius: 0.2rem;
+}
+.zf_phone_title{
+    width:100%;
+    height: 0.9rem;
+    line-height: 0.9rem;
+    text-align: center;
+    color: #000;
+    font-size: 0.3rem;
+    border-bottom: 1px solid #ccc;
+}
+.zf_phone_type{
+    width:100%;
+    height: 1.1rem;
+}
+.zf_phone_type_img{
+    float: left;
+    width:0.8rem;
+    height: 1.1rem;
+    background: url("/shiyan/image/png_phone.png") no-repeat center center;
+    background-size: 0.4rem 0.4rem;
+}
+.zf_phone_type_name{
+    float: left;
+    width:auto;
+    height: 1.1rem;
+    line-height: 1.1rem;
+    text-align: left;
+    color: #000;
+    font-size: 0.26rem;
+}
+/* 弹出结束 */
+/* 投票页面开始 */
+.vote_section{
+    width:100%;
+    overflow: hidden;
+}
+.vote_section img{
+    display: inline-block;
+    width:100%;
+    height: auto;
+}
+/* 投票页面结束 */
+/* 交警页面开始 */
+.zf_jj_info{
+    width:92%;
+    height: auto;
+    margin-left:4%;
+}
+.zf_jj_info_line{
+    float: left;
+    width:50%;
+    /* margin-right:6%; */
+    height: auto;
+    margin-top: 0.4rem;
+}
+.zf_jj_info_2{
+    width:92%;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    font-size: 0.28rem;
+    color: #666;
+    margin-left:4%;
+    background: url("/shiyan/image/png_down.png") no-repeat 0.6rem center;
+    background-size: 0.4rem 0.4rem;
+}
+/* 交警页面结束 */

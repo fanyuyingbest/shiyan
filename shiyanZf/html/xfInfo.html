@@ -1,0 +1,95 @@
+<html lang="en" data-dpr="1" style="font-size: 85.333333px;">
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+	<meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+	<meta name ="format-detection" content = "telephone=no"/>
+	<meta name="WT.pa_cmid" content=""/>
+	<meta name="W_design" content="750"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+	<meta http-equiv="Pragma" content="no-cache" />
+	<meta http-equiv="Expires" content="0" />
+	<meta name="keywords" content=".."/>
+	<meta name="description" itemprop="description" content="">
+	<meta itemprop="name" content="">
+    <meta itemprop="image" content="">
+    <link rel="stylesheet" type="text/css" href="/shiyan/css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="/shiyan/shiyanZf/css/index.css"/>
+    <script type="text/javascript" src="/shiyan/js/jq.min.js" charset="utf-8"> </script>
+    <script type="text/javascript" src="/shiyan/js/index.js" charset="utf-8"></script>
+    <script type="text/javascript" charset="utf-8">
+    // 移动端尺寸的函数方法
+        (function(e,t){function n(){for(var e=navigator.userAgent,t=["Android","iPhone","SymbianOS","Windows Phone","iPad","iPod"],n=!0,i=0;t.length>i;i++)if(e.indexOf(t[i])>0){n=!1;break}return n}function i(){var t=a.getBoundingClientRect().width;n()&&2047>t&&(t=640);var i=t*100/w;a.style.fontSize=i+"px",d.rem=e.rem=i}var r,o=e.document,a=o.documentElement,s=o.querySelector('meta[name="viewport"]'),c=o.querySelector('meta[name="flexible"]'),l=0,u=0,d=t.flexible||(t.flexible={});var w=o.querySelector('meta[name="W_design"]')?o.querySelector('meta[name="W_design"]').getAttribute('content'):640;if(s){console.warn("将根据已有的meta标签来设置缩放比例");var p=s.getAttribute("content").match(/initial\-scale=([\d\.]+)/);p&&(u=parseFloat(p[1]),l=parseInt(1/u))}else if(c){var f=c.getAttribute("content");if(f){var h=f.match(/initial\-dpr=([\d\.]+)/),m=f.match(/maximum\-dpr=([\d\.]+)/);h&&(l=parseFloat(h[1]),u=parseFloat((1/l).toFixed(2))),m&&(l=parseFloat(m[1]),u=parseFloat((1/l).toFixed(2)))}}if(!l&&!u){e.navigator.appVersion.match(/android/gi);var g=e.navigator.appVersion.match(/iphone/gi);e.navigator.appVersion.match(/ipad/gi);var v=e.devicePixelRatio;l=g?v>=3&&(!l||l>=3)?3:v>=2&&(!l||l>=2)?2:1:1,u=1/l}if(a.setAttribute("data-dpr",l),!s)if(s=o.createElement("meta"),s.setAttribute("name","viewport"),s.setAttribute("content","initial-scale="+u+", maximum-scale="+u+", minimum-scale="+u+", user-scalable=no"),a.firstElementChild)a.firstElementChild.appendChild(s);else{var y=o.createElement("div");y.appendChild(s),o.write(y.innerHTML)}e.addEventListener("resize",function(){clearTimeout(r),r=setTimeout(i,300)},!1),e.addEventListener("pageshow",function(e){e.persisted&&(clearTimeout(r),r=setTimeout(i,300))},!1),"complete"===o.readyState?o.body.style.fontSize=12*l+"px":o.addEventListener("DOMContentLoaded",function(){o.body.style.fontSize=12*l+"px"},!1),i(),d.dpr=e.dpr=l,d.refreshRem=i,d.rem2px=function(e){var t=parseFloat(e)*this.rem;return"string"==typeof e&&e.match(/rem$/)&&(t+="px"),t},d.px2rem=function(e){var t=parseFloat(e)/this.rem;return"string"==typeof e&&e.match(/px$/)&&(t+="rem"),t}})(window,window.lib||(window.lib={}));
+    </script>
+</head>
+<body style="overflow: hidden;">
+    <div class="zf_phone_player" onclick="hidePlayer();">
+        <div class="zf_phone_cont">
+            <div class="zf_phone_title">呼叫12345</div>
+            <div class="zf_phone_type">
+                <div class="zf_phone_type_img"></div>
+                <div class="zf_phone_type_name">中国移动</div>
+            </div>
+        </div>
+    </div>
+    <div class="zf_head">
+        <div class="zf_back_img" onclick="jumpToSy();"></div>
+        <div class="zf_back_logo xf"></div>
+        <div class="zf_back_info">
+            <div class="zf_back_title">十堰消防</div>
+            <div class="zf_back_phone">1069112345678</div>
+        </div>
+        <div class="zf_back_menu"></div>
+        <div class="zf_back_call" onclick="alertPhoneNum();"></div>
+    </div>
+    <div class="zf_main_page">
+        <div class="zf_main_date">今天星期二</div>
+        <div class="zf_main_time">
+            <div class="zf_main_time_left">前4分钟</div>
+            <div class="zf_main_time_right">显示原文</div>
+        </div>
+        <div class="zf_main_msg">
+            <div class="zf_main_msg_info">
+                <span style="margin-top: 0.1rem;">【十堰市消防局消防局提示：严禁各类公</span>
+                <span>共娱乐场所燃放烟花爆竹，严禁在易燃易爆</span>
+                <span>场所及周边燃放烟花爆竹</span>
+            </div>
+            <div class="zf_main_msg_done2" onclick="hiddenReport();">隐患举报</div>
+        </div>
+       
+        <!-- 最下端的弹层 -->
+        <div class="zf_main_footer">
+            <div class="zf_footer_kyb" style="width:18%;"></div>
+            <div class="zf_footer_sq" onclick="showXfFoot1();">
+                有奖互动
+                <div class="zf_footer_sq_player" id="xf_foot_1">
+                    <ul>
+                        <li onclick="hiddenReport();">隐患举报</li>
+                        <li onclick="excelTeacher();" style="border:none;">优秀教师</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="zf_footer_sq" onclick="showXfFoot2();">
+                便民服务
+                <div class="zf_footer_sq_player" id="xf_foot_2">
+                    <ul>
+                        <li onclick="makeVisitor();">预约参观</li>
+                        <li onclick="productDiff();">产品辨别</li>
+                        <li onclick="safetyBool();">安全宝典</li>
+                        <li onclick="offcialWb();" style="border:none;">官方微博</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="zf_footer_sq" onclick="xfShop();">
+                消防商城
+            </div>
+           
+        </div>
+    </div>
+</body>
+</html>
